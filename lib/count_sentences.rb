@@ -31,7 +31,7 @@ class String
     elements = self.split("!") && self.split("?") && self.split(".")
     elements.count
 
-    self.split(/\!|\?|\./).delete_if {|word| word.length < 2 }.size
+    # self.split(/\!|\?|\./).delete_if {|word| word.length < 2 }.size
     # elements.length
     # elements.each_with_index do |element,i|
     #   i = -1
