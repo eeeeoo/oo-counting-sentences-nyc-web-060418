@@ -4,27 +4,15 @@ class String
 
   # attr_accessor :input_string
   def sentence?
-    if self.end_with?(".")
-      return true
-    else
-      return false
-    end
+    self.end_with?(".")
   end
 
   def question?
-    if self.end_with?("?")
-      return true
-    else
-      return false
-    end
+    self.end_with?("?")
   end
 
   def exclamation?
-    if self.end_with?("!")
-      return true
-    else
-      return false
-    end
+    self.end_with?("!")
   end
 
   def count_sentences
