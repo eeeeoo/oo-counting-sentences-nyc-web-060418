@@ -19,7 +19,7 @@ class String
     # elements = self.split("! ") && self.split("? ") && self.split(". ")
     # elements.count
 
-    elements = self.split(/[.?!]/)
+    elements = self.split(/[.?!] /)
     elements.count
 
     # self.split(/\!|\?|\./).delete_if {|word| word.length < 2 }.size
